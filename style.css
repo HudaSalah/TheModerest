@@ -1,0 +1,397 @@
+body
+{
+    margin: 0;
+    padding:0;
+    font-family: georgia;
+    background-image: url(Imgs/b.jpg);
+    background-size: cover;
+}
+*
+{
+    box-sizing: border-box;
+}
+#section1
+{
+    background-color: #474747aa;
+    border-top: solid 7px #76C38F;
+}
+header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+header logo h2
+{
+    margin-top: 14%;
+    font-family: georgia;
+    font-weight: normal;
+    font-size: 28px;
+    color: aliceblue;
+}
+
+.nav-link
+{
+    display: inline-block;    
+    padding: 18px;
+    font-size: 14px;
+    width: auto;
+    height: 49px;
+    text-align: center;
+    transition-duration: 1s;
+    color: aliceblue;
+}
+
+.nav-link:hover
+{
+    background-color: #76C38F;
+    color: aliceblue;
+    border-radius: 8px;
+     cursor: pointer;
+}
+
+
+.advr-circle
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 6%;
+    font-family: georgia;
+}
+
+#section1 .advr-circle .first 
+{
+    width: 38vw;
+    color: aliceblue;
+}
+
+.advr-circle .first article h1
+{
+    font-size: 46px;
+    width: 340px;
+    margin: 0;
+}
+.advr-circle .first article p
+{
+    width: 362px;
+    padding: 17px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+#section1 .advr-circle .second
+{
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    border: solid 20px gray;
+    
+    background-image: url(Imgs/gg2.jpg);
+    background-size: cover;
+    transition-duration: 1s;
+}
+
+#section1 .advr-circle .second:hover
+{
+     border: solid 20px #76C38F;
+}
+
+.advr-circle .first button
+{
+    height: 41px;
+    width: 150px;
+    background-color: #76C38F;
+    color: aliceblue;
+    border-radius: 9px;
+    border: solid 1px #76C38F;
+    font-size: 13px;
+}
+
+.advr-circle .first button:hover
+{
+     background-color:aliceblue;
+    color:#76C38F;
+     cursor: pointer;
+}
+
+
+/******************************** section2 ************************************/
+#section2
+{
+   display: flex;
+    justify-content: center; 
+}
+
+#section2 .AllDivs 
+{
+    display: flex;
+   height: 81vh;
+   align-items: center;
+    
+}
+
+.div1
+{
+    background-color: white;
+    text-align: center;
+    width: 300px;
+    height: 367px;
+    margin-left: 3%;
+    transition-duration: 1s;    
+     color: #565656;
+}
+
+
+.div1 .icon
+{
+    margin: 23px auto;
+    width: 120px;
+    height: 120px; 
+    font-size: 103px;
+   
+}
+
+
+
+#section2 .AllDivs .div1 article h3 
+{
+/*    color: #565656;*/
+    font-size: 32px;
+    
+}
+
+#section2 .AllDivs .div1 article p 
+{
+/*    color: #565656;*/
+    font-size: 15px;
+    width: 80%;
+    margin: auto;
+    
+}
+
+.div1:hover
+{   
+    color: aliceblue;
+    background-color: #76C38F;
+     cursor: pointer;
+}
+
+
+.line
+{
+    width: 80%;
+    height: 2px;
+    background-color: #474747;
+    margin: 3% auto;
+    
+    position: relative;
+   
+}
+
+.line .latest
+{
+    content: 'LATEST WORK';
+       width: 246px;
+    height: 57px;
+    border-radius: 8px;
+    padding-top: 8px;
+    background-color: #474747;
+    position: absolute;
+    left: 40%;
+    top: -30;
+    text-align: center;
+    color: aliceblue;
+    font-size: 32px;
+    margin-bottom: 6%;
+   
+}
+
+/*************************************** section 3 ***********************/
+
+#section3
+{
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap row;
+    margin: 6% 0;
+    
+}
+
+#section3 .img1
+{
+    width: 334px;
+    height: 190px;
+    background-color: cadetblue;
+    margin-left: 48px;
+    margin-bottom: 2%;
+    border: solid 5px white;
+    transition-duration: 1s;
+    position: relative;
+}
+#section3 .img1 img
+{
+   width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(90%);
+    transition-duration: 1s;
+}
+#section3 .img1:hover
+{
+     border: solid 5px #76C38F ;
+     cursor: pointer;
+   
+}
+#section3 .img1 .title
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 38px;
+    background-color: #474747aa;
+    color: aliceblue;
+    transition-duration: 1s;
+    text-align: center;
+    padding: 8px;
+    
+}
+
+#section3 .img1 img:hover
+{
+    filter: none;
+}
+
+#section3 .img1:hover .title
+{
+    width: 0;
+    font-size: 0;
+    
+}
+
+
+/************************************* footer ***********************************/
+
+footer
+{
+    height: 500px;
+    width: 100%;
+    background-color:#313131;
+    color: aliceblue;
+    display: flex;
+    flex-flow: column wrap;    
+    
+}
+
+
+ 
+ footer .second p
+{
+    color: aliceblue;
+    transition-duration: 1s;
+}
+
+footer .third .form input
+{
+    color: #76C38F;
+}
+footer .second p:hover
+{
+    color: #76c38f;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+footer h3
+{
+    font-size: 26px;
+    font-weight: 100;
+}
+
+footer hr
+{
+    border: solid 0.5px dimgray;
+}
+
+footer .first ,footer .second ,footer .third1 , footer .third
+{
+   
+   margin: auto auto;
+    width: 300px;
+   
+
+}
+.first h4
+{
+    color:#76c38f; 
+}
+.first p span
+{
+  color:#76c38f;    
+}
+
+.third  li
+{
+    list-style: none;
+    padding-bottom: 6%;
+    
+}
+
+.third1 p span
+{
+    color: #76c38f;
+}
+
+
+.line1
+{
+    width: 100%;
+    height: 2px;
+    background-color:#76C38F ;
+   
+}
+
+
+
+/***************** form ****************/
+
+.third .form{
+    padding:10px 10px
+}
+
+.third .form input{
+    background-color: #222222;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+}
+
+.third .form button{
+    color: white;
+    background: #76c38f;
+    border:none;
+    border-radius: 5px ;
+    width: 73%;
+    height: 37px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
